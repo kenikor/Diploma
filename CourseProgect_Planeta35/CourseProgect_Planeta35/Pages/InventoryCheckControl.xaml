@@ -148,24 +148,24 @@
                                 <DataTemplate>
 
                                     <Button Background="Transparent"
-                BorderThickness="0"
-                Padding="0"
-                Cursor="Hand"
-                FocusVisualStyle="{x:Null}"
-                Click="Item_Click">
+                                            BorderThickness="0"
+                                            Padding="0"
+                                            Cursor="Hand"
+                                            FocusVisualStyle="{x:Null}"
+                                            Click="Item_Click">
 
                                         <Button.Template>
                                             <ControlTemplate TargetType="Button">
 
                                                 <Border x:Name="Card"
-                            Margin="0 6"
-                            Width="620"
-                            Padding="14"
-                            Background="#232B26"
-                            CornerRadius="12"
-                            BorderBrush="#2F3B33"
-                            BorderThickness="1"
-                            RenderTransformOrigin="0.5,0.5">
+                                                        Margin="0 6"
+                                                        Width="620"
+                                                        Padding="14"
+                                                        Background="#232B26"
+                                                        CornerRadius="12"
+                                                        BorderBrush="#2F3B33"
+                                                        BorderThickness="1"
+                                                        RenderTransformOrigin="0.5,0.5">
 
                                                     <Border.RenderTransform>
                                                         <ScaleTransform ScaleX="1" ScaleY="1"/>
@@ -181,52 +181,52 @@
 
                                                         <!-- IMAGE -->
                                                         <Border Width="64"
-                                    Height="64"
-                                    CornerRadius="10"
-                                    ClipToBounds="True">
+                                                                Height="64"
+                                                                CornerRadius="10"
+                                                                ClipToBounds="True">
 
-                                                            <Image Source="{Binding Asset.ImagePath}"
-                                       Stretch="UniformToFill"/>
+                                                            <Image Source="{Binding Asset.ImagePathToShow}"
+                                                                   Stretch="UniformToFill"/>
                                                         </Border>
 
                                                         <!-- INFO -->
                                                         <StackPanel Grid.Column="1" Margin="12 0">
 
                                                             <TextBlock Text="{Binding Asset.Name}"
-                                           FontSize="15"
-                                           FontWeight="SemiBold"
-                                           Foreground="White"/>
+                                                                       FontSize="15"
+                                                                       FontWeight="SemiBold"
+                                                                       Foreground="White"/>
 
                                                             <StackPanel Orientation="Horizontal" Margin="0 6 0 0">
 
                                                                 <Ellipse Width="8"
-                                             Height="8"
-                                             Fill="#8B9B4C"
-                                             Margin="0 0 6 0"/>
+                                                                         Height="8"
+                                                                         Fill="#8B9B4C"
+                                                                         Margin="0 0 6 0"/>
 
                                                                 <TextBlock Text="{Binding Asset.Category.Name}"
-                                               FontSize="12"
-                                               Foreground="#BFCBC2"/>
+                                                                           FontSize="12"
+                                                                           Foreground="#BFCBC2"/>
                                                             </StackPanel>
 
                                                             <TextBlock Text="{Binding Asset.SerialNumber, StringFormat=SN: {0}}"
-                                           FontSize="12"
-                                           Foreground="#9AA59F"
-                                           Margin="0 4 0 0"/>
+                                                                       FontSize="12"
+                                                                       Foreground="#9AA59F"
+                                                                       Margin="0 4 0 0"/>
 
                                                         </StackPanel>
 
                                                         <!-- STATUS -->
                                                         <Border Grid.Column="2"
-                                    Padding="8 4"
-                                    CornerRadius="8"
-                                    Background="{Binding Asset.IsChecked, Converter={StaticResource BoolToColorConverter}}"
-                                    VerticalAlignment="Center">
+                                                                Padding="8 4"
+                                                                CornerRadius="8"
+                                                                Background="{Binding Asset.IsChecked, Converter={StaticResource BoolToColorConverter}}"
+                                                                VerticalAlignment="Center">
 
                                                             <TextBlock Text="{Binding Asset.IsChecked, Converter={StaticResource BoolToTextConverter}}"
-                                           Foreground="White"
-                                           FontSize="12"
-                                           FontWeight="SemiBold"/>
+                                                                       Foreground="White"
+                                                                       FontSize="12"
+                                                                       FontWeight="SemiBold"/>
                                                         </Border>
 
                                                     </Grid>
@@ -241,24 +241,24 @@
                                                             <Storyboard>
 
                                                                 <DoubleAnimation Storyboard.TargetName="Card"
-                                                     Storyboard.TargetProperty="RenderTransform.ScaleX"
-                                                     To="1.02"
-                                                     Duration="0:0:0.12"/>
+                                                                                 Storyboard.TargetProperty="RenderTransform.ScaleX"
+                                                                                 To="1.02"
+                                                                                 Duration="0:0:0.12"/>
 
                                                                 <DoubleAnimation Storyboard.TargetName="Card"
-                                                     Storyboard.TargetProperty="RenderTransform.ScaleY"
-                                                     To="1.02"
-                                                     Duration="0:0:0.12"/>
+                                                                                 Storyboard.TargetProperty="RenderTransform.ScaleY"
+                                                                                 To="1.02"
+                                                                                 Duration="0:0:0.12"/>
 
                                                                 <ColorAnimation Storyboard.TargetName="Card"
-                                                    Storyboard.TargetProperty="BorderBrush.Color"
-                                                    To="#8B9B4C"
-                                                    Duration="0:0:0.12"/>
+                                                                                Storyboard.TargetProperty="BorderBrush.Color"
+                                                                                To="#8B9B4C"
+                                                                                Duration="0:0:0.12"/>
 
                                                                 <ColorAnimation Storyboard.TargetName="Card"
-                                                    Storyboard.TargetProperty="Background.Color"
-                                                    To="#27322B"
-                                                    Duration="0:0:0.12"/>
+                                                                                Storyboard.TargetProperty="Background.Color"
+                                                                                To="#27322B"
+                                                                                Duration="0:0:0.12"/>
 
                                                             </Storyboard>
                                                         </BeginStoryboard>
@@ -269,24 +269,24 @@
                                                             <Storyboard>
 
                                                                 <DoubleAnimation Storyboard.TargetName="Card"
-                                                     Storyboard.TargetProperty="RenderTransform.ScaleX"
-                                                     To="1"
-                                                     Duration="0:0:0.12"/>
+                                                                                 Storyboard.TargetProperty="RenderTransform.ScaleX"
+                                                                                 To="1"
+                                                                                 Duration="0:0:0.12"/>
 
                                                                 <DoubleAnimation Storyboard.TargetName="Card"
-                                                     Storyboard.TargetProperty="RenderTransform.ScaleY"
-                                                     To="1"
-                                                     Duration="0:0:0.12"/>
+                                                                                 Storyboard.TargetProperty="RenderTransform.ScaleY"
+                                                                                 To="1"
+                                                                                 Duration="0:0:0.12"/>
 
                                                                 <ColorAnimation Storyboard.TargetName="Card"
-                                                    Storyboard.TargetProperty="BorderBrush.Color"
-                                                    To="#2F3B33"
-                                                    Duration="0:0:0.12"/>
+                                                                                Storyboard.TargetProperty="BorderBrush.Color"
+                                                                                To="#2F3B33"
+                                                                                Duration="0:0:0.12"/>
 
                                                                 <ColorAnimation Storyboard.TargetName="Card"
-                                                    Storyboard.TargetProperty="Background.Color"
-                                                    To="#232B26"
-                                                    Duration="0:0:0.12"/>
+                                                                                Storyboard.TargetProperty="Background.Color"
+                                                                                To="#232B26"
+                                                                                Duration="0:0:0.12"/>
 
                                                             </Storyboard>
                                                         </BeginStoryboard>

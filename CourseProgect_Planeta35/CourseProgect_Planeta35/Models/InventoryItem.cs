@@ -74,16 +74,10 @@ namespace CourseProgect_Planeta35.Models
             }
         }
 
-        public async Task GenerateMultipleQrsAsync(int count)
+        public async Task GenerateMultipleQrsAsync()
         {
-            for (int i = 1; i <= count; i++)
-            {
-                string url = $"http://localhost:8080/asset/{i}";
-
-                var bitmap = await CreateQrBitmapAsync(url);
-
-                this.QRImage = bitmap;
-            }
+            string url = $"http://localhost:8080/asset/{Asset.Id}";
+            QRImage = await CreateQrBitmapAsync(url);
         }
 
         private async Task<BitmapImage> CreateQrBitmapAsync(string payload)

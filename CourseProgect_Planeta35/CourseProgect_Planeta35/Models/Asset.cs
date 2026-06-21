@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -70,7 +71,24 @@ namespace CourseProgect_Planeta35.Models
 
         [MaxLength(300)]
         [Column("image_path")]
-        public string? ImagePath { get; set; }   
+        public string? ImagePath { get; set; }
+
+        public string? ImagePathToShow
+        {
+            get
+            {
+                if (string.IsNullOrWhiteSpace(ImagePath))
+                    return null;
+
+                string fileName = Path.GetFileName(ImagePath);
+
+                string currentFolder = AppDomain.CurrentDomain.BaseDirectory;
+
+                string fullPath = Path.Combine(currentFolder, "Resources", fileName);
+
+                return fullPath;
+            }
+        }
 
         public ICollection<InventoryItem> InventoryItems { get; set; }
         public ICollection<ChangeLog> ChangeLogs { get; set; }

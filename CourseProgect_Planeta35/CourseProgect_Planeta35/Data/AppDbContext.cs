@@ -24,7 +24,7 @@ namespace CourseProgect_Planeta35.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Planet35;Trusted_Connection=True;Encrypt=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Planet35.mdf;Integrated Security=True;Connect Timeout=30;");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

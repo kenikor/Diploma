@@ -27,7 +27,7 @@ namespace CourseProgect_Planeta35.Controls
             LoadItems();
         }
 
-        private async Task LoadDataFromDB() // Меняем void на async Task
+        private async Task LoadDataFromDB()
         {
             try
             {
@@ -39,7 +39,6 @@ namespace CourseProgect_Planeta35.Controls
                         .Include(c => c.Assets)
                         .ToList();
 
-                    // Загружаем ассеты со всеми связями
                     var assets = db.Assets
                         .AsNoTracking()
                         .Include(a => a.Category)
@@ -47,18 +46,14 @@ namespace CourseProgect_Planeta35.Controls
                         .Include(a => a.Department)
                         .ToList();
 
-                    // Преобразуем в InventoryItem
                     InventoryItems = assets.Select(a => new InventoryItem
                     {
                         Asset = a
                     }).ToList();
 
-                    // Генерируем QR-коды для каждого элемента
                     foreach (var item in InventoryItems)
                     {
-                        // Вызываем асинхронный метод генерации для одного ассета
-                        // Предполагаем, что внутри он использует URL типа localhost:8080/assets/{id}
-                        await item.GenerateMultipleQrsAsync(1);
+                        await item.GenerateMultipleQrsAsync();
                     }
                 }
             }

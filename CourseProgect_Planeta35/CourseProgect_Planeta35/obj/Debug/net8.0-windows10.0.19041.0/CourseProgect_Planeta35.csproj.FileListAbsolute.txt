@@ -241,3 +241,18 @@ C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\o
 C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\obj\Debug\net8.0-windows10.0.19041.0\CourseProgect_Planeta35.pdb
 C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\obj\Debug\net8.0-windows10.0.19041.0\CourseProgect_Planeta35.genruntimeconfig.cache
 C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\obj\Debug\net8.0-windows10.0.19041.0\ref\CourseProgect_Planeta35.dll
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\1 фото.png
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\10 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\11 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\12 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\2 фото.png
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\3 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\4 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\5 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\6 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\7 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\8 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\9 фото.jpg
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Resources\Inventory-maintenance_25374.ico
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Debug\net8.0-windows10.0.19041.0\Planet35.mdf
+C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\obj\Debug\net8.0-windows10.0.19041.0\CourseProgect_Planeta35_Content.g.cs

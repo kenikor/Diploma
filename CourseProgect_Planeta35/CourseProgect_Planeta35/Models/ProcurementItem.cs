@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +32,6 @@ namespace CourseProgect_Planeta35.Models
 
         public string Unit { get; set; }
 
-        public string ImagePathToShow { get; set; }
+        public string? ImagePathToShow { get; set; }
     }
 }
