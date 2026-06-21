@@ -1,17 +1,4 @@
 C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\CourseProgect_Planeta35.exe
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\1 фото.png
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\10 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\11 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\12 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\2 фото.png
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\3 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\4 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\5 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\6 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\7 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\8 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\9 фото.jpg
-C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Resources\Inventory-maintenance_25374.ico
 C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\Planet35.mdf
 C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\CourseProgect_Planeta35.dll
 C:\CourseProject\CourseProject\CourseProgect_Planeta35\CourseProgect_Planeta35\bin\Release\net8.0-windows10.0.19041.0\publish\CourseProgect_Planeta35.runtimeconfig.json

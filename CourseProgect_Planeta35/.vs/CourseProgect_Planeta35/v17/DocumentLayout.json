@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\CourseProject\\CourseProject\\CourseProgect_Planeta35\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|c:\\courseproject\\courseproject\\courseprogect_planeta35\\courseprogect_planeta35\\pages\\inventorylistcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|solutionrelative:courseprogect_planeta35\\pages\\inventorylistcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|c:\\courseproject\\courseproject\\courseprogect_planeta35\\courseprogect_planeta35\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|solutionrelative:courseprogect_planeta35\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|c:\\courseproject\\courseproject\\courseprogect_planeta35\\courseprogect_planeta35\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|solutionrelative:courseprogect_planeta35\\models\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|c:\\courseproject\\courseproject\\courseprogect_planeta35\\courseprogect_planeta35\\pages\\inventorylistcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|solutionrelative:courseprogect_planeta35\\pages\\inventorylistcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|c:\\courseproject\\courseproject\\courseprogect_planeta35\\courseprogect_planeta35\\pages\\inventorylistcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|solutionrelative:courseprogect_planeta35\\pages\\inventorylistcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|c:\\courseproject\\courseproject\\courseprogect_planeta35\\courseprogect_planeta35\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|solutionrelative:courseprogect_planeta35\\models\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02353E1F-E902-46DF-A02E-39B25B02299B}|CourseProgect_Planeta35\\CourseProgect_Planeta35.csproj|c:\\courseproject\\courseproject\\courseprogect_planeta35\\courseprogect_planeta35\\models\\inventorycheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -313,11 +313,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 352,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InventoryItem.cs",
               "DocumentMoniker": "C:\\CourseProject\\CourseProject\\CourseProgect_Planeta35\\CourseProgect_Planeta35\\Models\\InventoryItem.cs",
               "RelativeDocumentMoniker": "CourseProgect_Planeta35\\Models\\InventoryItem.cs",
@@ -325,12 +325,11 @@
               "RelativeToolTip": "CourseProgect_Planeta35\\Models\\InventoryItem.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAuwE4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T12:59:19.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T12:59:19.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "InventoryListControl.xaml",
               "DocumentMoniker": "C:\\CourseProject\\CourseProject\\CourseProgect_Planeta35\\CourseProgect_Planeta35\\Pages\\InventoryListControl.xaml",
               "RelativeDocumentMoniker": "CourseProgect_Planeta35\\Pages\\InventoryListControl.xaml",
@@ -342,26 +341,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InventoryListControl.xaml.cs",
               "DocumentMoniker": "C:\\CourseProject\\CourseProject\\CourseProgect_Planeta35\\CourseProgect_Planeta35\\Pages\\InventoryListControl.xaml.cs",
               "RelativeDocumentMoniker": "CourseProgect_Planeta35\\Pages\\InventoryListControl.xaml.cs",
               "ToolTip": "C:\\CourseProject\\CourseProject\\CourseProgect_Planeta35\\CourseProgect_Planeta35\\Pages\\InventoryListControl.xaml.cs",
               "RelativeToolTip": "CourseProgect_Planeta35\\Pages\\InventoryListControl.xaml.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAQwKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T12:26:36.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Asset.cs",
               "DocumentMoniker": "C:\\CourseProject\\CourseProject\\CourseProgect_Planeta35\\CourseProgect_Planeta35\\Models\\Asset.cs",
               "RelativeDocumentMoniker": "CourseProgect_Planeta35\\Models\\Asset.cs",
               "ToolTip": "C:\\CourseProject\\CourseProject\\CourseProgect_Planeta35\\CourseProgect_Planeta35\\Models\\Asset.cs",
               "RelativeToolTip": "CourseProgect_Planeta35\\Models\\Asset.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T12:59:19.217Z",
               "EditorCaption": ""
@@ -376,8 +375,7 @@
               "RelativeToolTip": "CourseProgect_Planeta35\\Models\\InventoryCheck.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T12:59:19.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T12:59:19.252Z"
             },
             {
               "$type": "Document",
@@ -389,8 +387,7 @@
               "RelativeToolTip": "CourseProgect_Planeta35\\Models\\Inventory.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T12:59:19.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T12:59:19.135Z"
             },
             {
               "$type": "Document",
@@ -402,8 +399,7 @@
               "RelativeToolTip": "CourseProgect_Planeta35\\Models\\AssetCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T12:59:19.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T12:59:19.155Z"
             },
             {
               "$type": "Document",
@@ -415,8 +411,7 @@
               "RelativeToolTip": "CourseProgect_Planeta35\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwCAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:28:58.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T19:28:58.538Z"
             },
             {
               "$type": "Document",

@@ -80,13 +80,17 @@ namespace CourseProgect_Planeta35.Models
                 if (string.IsNullOrWhiteSpace(ImagePath))
                     return null;
 
-                string fileName = Path.GetFileName(ImagePath);
+                if (File.Exists(ImagePath))
+                    return ImagePath;
 
-                string currentFolder = AppDomain.CurrentDomain.BaseDirectory;
+                string localPath = Path.Combine(
+                    AppDomain.CurrentDomain.BaseDirectory,
+                    "Resources",
+                    Path.GetFileName(ImagePath));
 
-                string fullPath = Path.Combine(currentFolder, "Resources", fileName);
-
-                return fullPath;
+                return File.Exists(localPath)
+                    ? localPath
+                    : null;
             }
         }
 
